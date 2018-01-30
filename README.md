@@ -71,7 +71,7 @@ const filter = ft.and(
 //Syntacic sugar for modern browsers
 const { occuredBetween, isTrade } = CossLx.filter;
 
-const filter = and(occuredBetween(''01 Apr 2017', null), isTrade);
+const filter = and(occuredBetween('01 Apr 2017', null), isTrade);
 
 ```
 # Contribute
