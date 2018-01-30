@@ -38,9 +38,9 @@ function mapTrade(transaction) {
             transaction.feeCurrency
         ] : [
             transaction.total,
-            transaction.baseCurrency,
-            transaction.amount,
             transaction.quoteCurrency,
+            transaction.amount,
+            transaction.baseCurrency,
             transaction.fee,
             transaction.feeCurrency
         ];
