@@ -27,7 +27,7 @@ export class Transaction {
             this.baseCurrency = data.baseCurrency;
             this.quoteCurrency = data.quoteCurrency;
             this.total = data.total;
-            this.feeCurrency = this.type === TransactionType.BUY? this.quoteCurrency : this.baseCurrency;
+            this.feeCurrency = this.quoteCurrency;
         } else {
             this.currency = data.currency;
         }

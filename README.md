@@ -10,7 +10,7 @@ For now the library is meant to be used directly from the browser's console and 
 2. Press F12 to open the browser's dev tools
 3. Copy-paste the snippet below into the console: this will load the library and perform the export.
 ```js
-jQuery.getScript('https://github.com/plalx/CossLx/releases/download/v1.0.1-beta/browser-api.js').then(function () {
+jQuery.getScript('https://github.com/plalx/CossLx/releases/download/v1.0.2-beta/browser-api.js').then(function () {
     const ft = CossLx.filter;
    
     //Set the export format
