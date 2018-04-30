@@ -40,10 +40,10 @@ Formats are just `function(transactions): { data: string, mimeType: string, exte
 The current list of supported formats is quite minimal, but feel free to open an issue to request your favorite tracking's site format. 
 
 ### Currently supported formats: `CossLx.format.`
-- Default (JSON): `defaultJson`
-- Default (CSV): `defaultCsv`
-- [BitcoinTaxes](https://bitcoin.tax/): `bitcoinTax`
-- [CoinTracking](https://cointracking.info/): `coinTracking`
+- `defaultJson`: Default (JSON)
+- `defaultCsv`:  Default (CSV)
+- `bitcoinTax`: [BitcoinTaxes](https://bitcoin.tax/)
+- `coinTracking`: [CoinTracking](https://cointracking.info/)
 
 ## Filters
 Filters are `function(transaction): boolean` functions which can be used to constrain which transactions to output.
